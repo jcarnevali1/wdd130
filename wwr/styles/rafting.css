@@ -73,7 +73,8 @@ h1 {
 }
 
 .hero article {
-    background-color: rgba(50, 82, 141, 0.8);
+    background-color: var(--primary-color);
+    opacity: 0.85;
     position: absolute;
     bottom: 2px;
 }
