@@ -18,11 +18,50 @@ body {
     color: var(--accent1-color);
 }
 
+header {
+    padding: 20px;
+    color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 header,
 main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer p {
+    width: 100%;
+    grid-column: 1 / span all;
+    text-align: center;
+
+}
+
+footer nav {
+    grid-column: end;
+    justify-self: right;
 }
 
 h1,
@@ -81,4 +120,27 @@ h1 {
 
 article p {
     color: var(--accent2-color);
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.history img {
+    width: 300px;
+    height: auto;
+}
+
+.adventure {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.adventure img {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
 }
