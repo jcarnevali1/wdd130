@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: .5rem;
+    color: navy;
+}
+
+form {
+    max-width: 550px;
+    background-color: #eee;
+    color: #111;
+    justify-content: center;
+    border-radius: .3rem;
+}
+
+input,
+textarea,
+select {
+    padding: .7rem;
+    width: 500px;
+}
+
+button {
+    background-color: navy;
+    width: 500px;
+    padding: 1rem;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    border-radius: .5rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+}
+
+code {
+    display: block;
+    background-color: #313131;
+    color: #fff;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+}
+
+.quiz-item {
+    border: none;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
