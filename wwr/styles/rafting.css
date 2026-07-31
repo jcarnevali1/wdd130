@@ -111,6 +111,38 @@ h1 {
     color: var(--accent2-color);
 }
 
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Roboto, Arial, sans-serif;
+    margin: .15rem;
+}
+
+label {
+    text-align: left;
+    padding-right: .5rem;
+}
+
+input,
+textarea {
+    padding: .5rem;
+}
+
+button {
+    justify-self: start;
+    padding: .5rem;
+    width: 21rem;
+}
+
 .hero article {
     background-color: var(--primary-color);
     opacity: 0.85;
@@ -143,4 +175,51 @@ article p {
     width: 150px;
     height: auto;
     margin-top: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.information {
+    text-align: center;
+    padding: 1rem;
+}
+
+.information p {
+    margin: -.7rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    width: 340px;
+    padding: .3rem;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.employees {
+    background-color: #eee;
+    padding: .1rem;
+}
+
+.employee {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+.employee img {
+    width: 110px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.employee-caption {
+    text-align: center;
 }
