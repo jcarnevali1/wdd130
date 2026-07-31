@@ -100,7 +100,7 @@ article {
     width: 180px;
 }
 
-h1 {
+.image-title {
     position: absolute;
     top: 20px;
     width: 100%;
