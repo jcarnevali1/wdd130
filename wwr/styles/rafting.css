@@ -419,6 +419,7 @@ figcaption {
     font-weight: bold;
     padding-top: 15px;
     font-size: 1.2rem;
+    text-align: center;
 }
 
 .book-grid {
